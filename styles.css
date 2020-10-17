@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  width: 100vw;
+  height: 100vh;
+  padding: 6rem;
+  background-color: #eff5f6;
+}
+
+.main {
+  background-image: url("https://source.unsplash.com/4Xb9AqocdCc/1900x1000");
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: darkslategray;
+}
+
+.main-header {
+  padding-top: 5%;
+  font-size: 4rem;
+  letter-spacing: 1.3px;
+}
+
+.count-down {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.count-down h1 {
+  font-size: 10rem;
+  letter-spacing: 2px;
+}
+
+.count-down span {
+  font-size: 2rem;
+}
+
+.time {
+  width: 20rem;
+}
